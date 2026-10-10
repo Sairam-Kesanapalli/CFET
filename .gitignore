@@ -1,0 +1,22 @@
+# Local-only: verification scripts, working notes, superseded runs
+tcad/python/
+others/
+docs/project_sheet/
+docs/notes.txt
+
+# Simulation outputs: large and regenerable from the decks, and the logs
+# record the institute's server name, tool install path and licence check-outs
+runs/**/*.tdr
+runs/**/*.sat
+runs/**/*.sav
+runs/**/*.log
+runs/**/run.out
+runs/**/cfet.scm
+runs/**/cfet_msh.cmd
+
+# Full-window GUI screenshots show the server path and user name;
+# commit plot-only exports instead
+results/figures/svisual_*.jpeg
+
+# Python cache
+__pycache__/
